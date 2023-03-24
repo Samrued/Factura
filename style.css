@@ -1,0 +1,333 @@
+.base{
+    background-color: rgb(252, 252, 252);
+    width: 700px;
+    height: 980px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -100;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+}
+.cabeza{
+    background-image: url(Recurso\ 3.png);
+    width: 100%;
+    background-size: 700px;
+    height: 131px;
+    position: absolute;
+    background-repeat: no-repeat;
+    /* para sacar borde y alinear
+    border-bottom: #0A405E;
+    border-style: solid; */
+}
+.logo{
+    background-image: url(Recurso\ 2.png);
+
+    z-index: 20;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 150px;
+    height: 100px;
+    margin-right: 525px;
+    margin-top: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+.invoice{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 0;
+    margin-top: 28px;
+    margin-right: 100px;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    font-size: 50px;
+    color: #0A405E;
+
+}
+.flecha{
+    /* background-color: antiquewhite; */
+    background-image: url(Recurso\ 1.png);
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    width: 350px;
+    height: 100px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    /* border-bottom: #0A405E;
+    border-style: solid; */
+}
+.caja_1{
+    background-color: #B1DBF2;
+    position: absolute;
+    top: 178px;
+    right: 0;
+    width: 325px;
+    height: 36px;
+    border-radius: 60px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.hijo_caja1{
+    background-color:  #B1DBF2;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 110px;
+    height: 20px;
+    margin-right: 50px;
+    margin-top: 3.5px;
+    padding-top: 7px;
+
+}
+.hijo2_caja1{
+    background-color: #B1DBF2;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 113px;
+    height: 20px;
+    margin-right: 185px;
+    margin-top: 3.5px;
+    padding-top: 7px;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 160px;
+    height: 77px;
+    margin-right: 470px;
+    margin-top: 60px;
+    font-family: 'Roboto', serif;
+}
+.med_circulo{
+    background-image: url(Recurso\ 10.png);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 50px;
+    height: 100px;
+    margin-right: 650px;
+    margin-top: 40px;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+table {
+    font-family: 'Roboto', serif;
+    font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+  }
+  
+  th,
+  td {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 200px;
+  }
+.tabla{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 600px;
+    height: 325px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+.tb_fb{
+    color: white;
+    border-radius: 20%;
+    
+}
+
+.caja_2{
+    position: absolute;
+    background-color: #0A405E;
+    top: 0px;
+    right: 0;
+    width: 625px;
+    height: 40px;
+    margin-right: -12px;
+    margin-top: 0px;
+    z-index: -10;
+    border-radius: 50px;
+}
+.terminos{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 150px;
+    height: 75px;
+    margin-right: 499px;
+    margin-top: 735px;
+}
+.l1{
+    background: #ffffff;
+}
+.l2{
+    background: #ffffff;
+    width: 190px;
+}
+
+.med_circulo2{
+    background-image: url(Recurso\ 8.png);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 50px;
+    height: 100px;
+    margin-right: 0px;
+    margin-top: 625px;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.total{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 150px;
+    height: 40px;
+    margin-right: 50px;
+    margin-top: 735px;
+}
+.primer{
+    width: 60px;
+    height: 40px;
+    background: #ffffff;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+.segundo{
+    background: #ffffff;
+    display: inline;
+    position: absolute;
+    right: 0;
+    width: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.linea{
+    background: #000000;
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 780px;
+}
+.total2{
+    width: 35px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    right: 0;
+    margin-right:165px;
+    margin-top: 780px;
+    font-family: 'Roboto', sans-serif;
+}
+.total3{
+    width: 35px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    right: 0;
+    margin-right:65px;
+    margin-top: 780px;
+    font-family: 'Roboto', sans-serif;
+}
+.linea6{
+    width: 150px;
+    height: 1px;
+    background: #000000;
+    position: absolute;
+    bottom: 115px;
+    left: 48px;
+}
+.firma{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    margin-right: 499px;
+    margin-top: 870px;
+}
+.z{
+    background: #ffffff;
+    width: 87px;
+    position: absolute;
+    left: 30px;
+}
+.d{
+    background: #ffffff;
+    width: 55px;
+    position: absolute;
+    bottom: 12px;
+    left: 45px;
+}
+.foot{
+    background-image: url(Recurso\ 3.png);
+    width: 100%;
+    background-size: 700px;
+    height: 131px;
+    top: 0;
+    margin-top: 850px;
+    position: absolute;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    z-index: -20;
+    /* para sacar borde y alinear
+    border-bottom: #0A405E;
+    border-style: solid; */
+}
+.lin1{
+    width: 125px;
+    height: 20px;
+    background: #003e5f;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    color: #ffffff;
+}
+.lin2{
+    width: 127px;
+    height: 20px;
+    background: #003e5f;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+.lin3{
+    width: 150px;
+    height: 20px;
+    background: #003e5f;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
